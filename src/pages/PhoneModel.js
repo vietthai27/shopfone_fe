@@ -36,7 +36,7 @@ function PhoneModel() {
             <Button color="warning" className='add' onClick={() => { navigate("/addPhoneModel") }}>Thêm mẫu điện thoại</Button>
             {errorLoadingData === true ?
                 (<div>
-                    <h2 style={{ textAlign: "center" }}>Không có dữ liệu</h2>
+                    <h2 style={{ textAlign: "center" }}>Lỗi không có dữ liệu</h2>
                 </div>)
                 :
                 (<div>

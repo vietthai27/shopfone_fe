@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: aliceblue;
+    display: flex;
+    background-color: #1b3d2f;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header .logoBox {
+    display: flex;
+    width: 30%;
+    cursor: pointer;
+}
+
+.header .loginBox {
+    display: flex;
+    height: 100%;
+}
+
+.header .loginBox p {
+    display: block;
+    margin: auto;
+}
+
+.header .logo {
+    margin: auto 10px;
+    font-size: 4vw;
+}
+
+.header h1 {
+    display: block;
+    margin: auto 10px;
+}
+
+.header .add {
+    margin: 10px;
+}
+
+.header .searchBox {
+    display: flex;
+    width: 35%;
+}
+
+.header .searchBox input {
+    margin: 10px;
+}
+
+.header .searchBox button {
+    width: 40%;
+    margin: 10px;
+}
+
+.phoneModel {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+.phoneModel h1 {
+    text-align: right;
+    padding: 10px;
+}
+
+.phoneModel .table {
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.phoneModelAdd,
+.phoneModelEdit {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.phoneModelAdd h1,
+.phoneModelEdit h1 {
+    text-align: right;
+}
+
+.modelInfo {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+}
+
+.phoneModel .paging Button {
+    margin: 10px 5px;
+}
+
+.phoneModel .paging {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.userForm {
+    background-color: #1b3d2f;
+    margin: 50px auto;
+    width: 20%;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #7b7b7b73;
+}
+
+.userForm label,
+input,
+button {
+    margin: 10px auto;
+}
+
+.pagingBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagingBox .jump label, .total label {
+    display: block;
+    margin: auto;
+}
+
+.pagingBox .jump,
+.step,.total {
+    display: flex;
+}
+
+.pagingBox .jump input {
+    width: 50px;
+    margin: auto 5px;
+}
+
+.pagingBox .step button {
+    margin: auto 5px;
+}
